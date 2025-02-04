@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+}
+.one{
+    background-color: aqua;
+    color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+.two{
+    background-color: rgb(224, 83, 22);
+    color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.three{
+    background-color: rgb(9, 234, 28);
+    color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.four{
+    background-color: rgb(48, 10, 240);
+    color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.five{
+    background-color: rgb(255, 0, 212);
+    color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    flex-grow: 5px;
+}
