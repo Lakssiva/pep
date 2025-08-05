@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cal.js"></script>
+</head>
+<body>
+    
+    <label for="val1">Value1</label>
+    <input type="number" id="val1" name="val1" value="">
+    <label for="val2" >Value2</label>
+    <input type="number" id="val2" name="val2" value="">
+    <input type="button"value="+" id="add" onclick="opr(this.id)">
+    <input type="button" value="-" id="sub"onclick="opr(this.id)">
+    <input type="button"value="*"id="mul" onclick="opr(this.id)">
+    <input type="button"value="/" id="div" onclick="opr(this.id)">
+    <input type="text" name="res" id="res" value="res" disabled>
+    <input type="button" value="RESET" onclick="result()">
+    
+</body>
+</html>

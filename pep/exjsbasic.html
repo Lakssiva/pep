@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if</h2>
+
+<p>Display "Good day!" if the hour is less than 18:00:</p>
+
+<p id="demo">Good Evening!</p>
+
+<script>
+if (new Date().getHours() < 18) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}
+</script>
+
+</body>
+</html> -->
+
+<!--<script>
+  const userInputa = prompt("Enter your name");
+  const userInputb = prompt("Enter your marks");
+  if (userInputb >= 80) {
+      document.write("A+");
+  } else if (userInputb >= 70) {
+      document.write("A");
+  } else if (userInputb >= 60) {
+      document.write("B");
+  } else if (userInputb >= 50) {
+      document.write("C");
+  } else if (userInputb >= 40) {
+      document.write("D");
+  } else {
+      document.write("Fail");
+  }
+</script>-->
+
+<!--toFixed(2)->rounds of a number in 2 digits-->
+
+<!--string manipulation-->
+<!-- <script>
+  let myString= "Fullstack is my favourite domain!";
+  console.log(myString);
+  console.log(myString.length);
+  console.log(myString.indexOf ("t"));
+  console.log(myString.lastIndexOf("l"));
+  console.log(myString.lastIndexOf("ac"));
+  console.log(myString.slice(2,5));
+  console.log(myString.slice(-1));
+  console.log(myString.split(" "));
+  console.log(myString.toLowerCase());
+  console.log(myString.toUpperCase());
+  console.log(myString.charAt(4));
+  console.log(myString.includes("z"));
+</script>  -->
+
+<!--form validation-->
+<script>
+  xyz.innerText="";
+  var name1=document.getElementById("uname").value;
+  if(name1.length<1){
+    xyz.innerText="Please fill this info!";
+    f1=0;
+  }
+  var re=new RegExp("^[A-Za-z]");
+  if(re.test(name1)){
+    xyz.innerText="Username should not start with numbers!";
+    f1=0;
+  }
+</script>
+<form action="">
+  <label for="uname">Name:</label>
+  <input type="text" id="uname">
+  <label for="age">Age:</label>
+  <input type="age">
+  <button>Click </button>
+</form>
